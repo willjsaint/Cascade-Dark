@@ -1,0 +1,22 @@
+{
+  "name": "cascade-dark",
+  "displayName": "Cascade Dark",
+  "publisher": "willjsaint",
+  "description": "Pleasing dark theme for VSCode based on the Electron Dark theme but with some modifications and improved support for additional languages",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.72.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Cascade Dark",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Cascade Dark-color-theme.json"
+      }
+    ]
+  }
+}
